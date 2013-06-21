@@ -4,4 +4,19 @@ Now it's just build-it-fast-and-check-if-it-works version. Stay tune for updates
 
 ## Usage
 
-TODO: Write usage instructions here.
+### Searching for suggestions
+
+```ruby
+Tire.suggest('cars', field: 'name.suggest', term: 'au').suggestions
+#=> ["audi", "audi 100", "audi 200", "audi 80", "audi 90", "audi a2", "audi a3", "audi a4", "audi a5", "audi a6"]
+```
+
+### Searching by several indices
+
+```ruby
+Tire.suggest ['cars', 'ads'] do
+  field 'name'
+  term 'bmw x'
+end.suggestions
+#=> ["bmw x3", "bmw x5"]
+```

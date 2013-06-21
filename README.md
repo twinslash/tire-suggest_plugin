@@ -1,6 +1,8 @@
 # Tire for [Suggester Plugin for Elasticsearch](https://github.com/spinscale/elasticsearch-suggest-plugin)
 
-Now it's just build-it-fast-and-check-if-it-works version. Stay tune for updates.
+Addition for Tire to work with suggester plugin for elasticsearch: https://github.com/spinscale/elasticsearch-suggest-plugin.
+
+Now it's just *build-it-fast-and-check-if-it-works* version. Stay tune for updates.
 
 ## Usage
 

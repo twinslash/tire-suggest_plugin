@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Tire::SuggestPlugin::VERSION
   spec.authors       = ["Dmitry Zhlobo"]
   spec.email         = ["dima.zhlobo@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "Addition for Tire to work with suggester plugin for elasticsearch"
+  spec.summary       = "Addition for Tire to work with suggester plugin for elasticsearch"
   spec.homepage      = "https://github.com/twinslash/tire-suggest-plugin"
   spec.license       = "MIT"
 

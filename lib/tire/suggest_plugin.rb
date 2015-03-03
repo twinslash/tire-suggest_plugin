@@ -30,7 +30,7 @@ module Tire::SuggestPlugin
     end
 
     def url
-      path = ['/', @indices.join(','), '_suggest'].join('/').squeeze('/')
+      path = ['/', @indices.join(','), '__suggest'].join('/').squeeze('/')
       Tire::Configuration.url + path
     end
 
